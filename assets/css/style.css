@@ -2,12 +2,12 @@
 * {
   margin:0;
   padding:0;  
-  font-family: "Goudy Bookletter 1911", sans-serif;
 }
 
 /* Element Selectors */
 body {
   position: relative;
+  font-family: "Goudy Bookletter 1911", sans-serif;
   font-size: 20px;
   background-color: #FDF8F5;
   color: #4F4846;
@@ -35,7 +35,6 @@ a {
 
 header,
 footer {
-
   height: 60px;
   width: 100%;
   line-height: 60px;
@@ -48,7 +47,7 @@ header {
 }
 
 footer {
-  position: fixed;
+  position: absolute;
   margin-top: 0;
   bottom: 0;
   border-bottom: 10px solid #4F4846;
